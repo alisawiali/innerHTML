@@ -105,8 +105,19 @@ myTowInput.onkeyup = function (){
 // wo daruf gedrückt,damit es gezeigt 
 
 
+myTowInput.onclick = function (){
+    if(aLi.contains(aLi)){
+        aLi.classList.toggle("ali" ,"omer");
+        aLi.style.cssText = "color:#fff;padding:20px;width:500px; background-color:red; height:200px;border-radius:20px;margin-left:30px;";
+    }
+    
+}
 
 
+// toggler ====> fügt die class wenn er da ist und löscht es wenn es da ist.
+// contains ====> sucht und zeigt es mit ( True && false) wenn da oer nicht.
+// remove ===> löscht das Class.
+// item ===> sucht das class mit number z.b 1,2,3, und sw und denn zeigt dein class 
 
 
 
