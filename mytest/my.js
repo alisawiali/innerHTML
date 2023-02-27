@@ -20,14 +20,14 @@ mynamen.forEach(e => {
     linkLI.appendChild(liste);
 });
 
-myTest.appendChild(testcont);
+myOl.appendChild(testcont);
 
 mydiv.appendChild(myOl);
 mydiv.appendChild(myTest);
 
 
 document.body.appendChild(mydiv);
-
+console.log(mydiv)
 
 //_________________________________________________//
 
