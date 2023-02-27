@@ -1,0 +1,14 @@
+// ** DOM  CSS
+
+// 1. Style 
+// 2. cssText
+// 3. removeProperty
+
+// _____Exsampl
+
+// element.style.removeProperty("color)
+// element.style.setProperty("font-size","40px")
+
+
+
+// document.title.style.setProperty("color","red");
